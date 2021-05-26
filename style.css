@@ -8,7 +8,8 @@
 
 :root{
     --colorfather: yellow;
-    --colorson: black; 
+    --colorson: black;
+    --colorgray: #C4C4C4;
     --font1: 20px;
     --fontfamily: 'Open sans';
 }
@@ -53,6 +54,8 @@ header{
 .nav__links li a:hover{
     transition: all 0.3s ease 0s;
 color: var(--colorfather);
+text-shadow:  1.5px 1.5px var(--colorson);
+
 
 }
 
@@ -102,4 +105,66 @@ margin-top: 20px;
     display: grid;
     justify-content: center;
     margin-top: 30px;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn a{
+margin-left: 10px;
+}
+.btn-trivia1{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 2px 5px;
+    
+
+}
+
+.btn-trivia1:hover{
+    border-radius: 2rem;
+    transition: all 0.3s ease 0s;
+    color: rgb(0, 0, 0);
+    background-color: var(--colorfather);
+    text-shadow:  1.5px 1.5px rgba(251, 248, 28, 0.774);
+    border-radius: 0.5rem;
+    
+
+}
+
+
+.btn-trivia2{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 2px 5px;
+
+
+}
+
+.btn-trivia2:hover{
+    border-radius: 2rem;
+    transition: all 0.3s ease 0s;
+    color: rgb(0, 0, 0);
+    background-color: var(--colorfather);
+    text-shadow:  1.5px 1.5px rgba(251, 248, 28, 0.774);
+    border-radius: 0.5rem;
+   
+
+}
+
+.btn-title{
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.color-titlebtn{
+    color: yellow;
 }
