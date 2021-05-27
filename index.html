@@ -7,26 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
+    <!--El link rel="stylesheet" href="style.css" permite enlazar el archivo css
+    e incorporar su informacion en la pagina html-stylesheet (hoja de cascada)-->
+    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/icono.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="Imagenes/icono.png">
+    Me permite agregarle un icono a la pagina web-->
 </head>
 
 
 <body>
     <header>
         <img class="logo" src="./labhead.png">
-
+        <!--El src se usa para llamar el link de la imagen que nombramos-->
+        <!--Class permite reunir varios tipos de elementos de texto u otras y
+        darles una personalizacion o identificación-->
         <nav>
+            <!--nav me va a permitir definir los botones de navegacion para la pagina
+            seguido de <ul> pra listas desordenadas o <ol> para listas ordenadas
+            Finalmente usas la etiqueta <li>, como identificador de un DOM texto
+            el cual podras personalizar en css-->
             <ul class="nav__links">
                 <li><a href="#">Nosotras</a></li>
+                <!--Para usar <li> y que este produzca una redireccion o enlace
+                a otra pagina, se usa <a href="#"-->
             </ul>
         </nav>
     </header>
     <div class="bienvenida">
-        <h1>¡Bienvenida a Trivia Laboratoria!</span></h1> 
+        <h1>¡Bienvenida a Trivia Laboratoria!</span>
+        </h1>
         <!--Usamos el evento onClick para llamar a la función guardar nombre-->
-   <a class="nombre" onClick="guardarNombre()">Ingresa tu nombre</a> 
+        <a class="nombre" onClick="guardarNombre()">Ingresa tu nombre</a>
     </div>
-    <div id="botones"> <!--Agregamos una Id para poderla usar en JS-->
+    <div id="botones">
+        <!--Agregamos una Id para poderla usar en JS-->
 
     </div>
     <div class="gif">
@@ -34,7 +48,8 @@
     </div>
 
     <script src="./app.js"></script>
-
+    <!--El <script src="./app.js"></script> permite enlazar o usar la informacion del 
+    archivo de JScript en el html -->
 </body>
 </body>
 
