@@ -221,7 +221,9 @@ margin-left: 10px;
 }
 
 .true{
-    background-color: rgb(39, 251, 1);
+    background-color: #c8fdcc;
+    border: 5px solid #c8fdcc;
+    border-radius: 10px;
 }
 
 
@@ -230,6 +232,9 @@ margin-left: 10px;
     border: 1px solid black;
     border-radius: 80px;
     padding: 10px 0;
+}
+.preguntas label{
+    margin: 20px 0;
 }
 
 .inicio{
